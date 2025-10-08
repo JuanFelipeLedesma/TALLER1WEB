@@ -46,8 +46,11 @@ a{color:inherit;text-decoration:none}
 .search{display:flex;gap:8px;align-items:center}
 .quote{font-size:24px;line-height:1.4}
 .footshare{display:flex;gap:10px;align-items:center;justify-content:flex-end;margin-top:12px}
+hr{border:none;border-top:1px solid rgba(255,255,255,.06);margin:16px 0}
 .pbar{position:relative;height:20px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.06);overflow:hidden}
 .pfill{height:100%;background:linear-gradient(90deg,var(--brand),var(--brand-2));box-shadow:0 0 12px rgba(34,211,238,.35) inset}
 .pbubble{position:absolute;top:-24px;transform:translateX(-50%);background:#ff5a7a;color:#fff;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid rgba(0,0,0,.15)}
-
-hr{border:none;border-top:1px solid rgba(255,255,255,.06);margin:16px 0}
+.cell .x{color:#fff}
+.cell .o{color:#39ff14;text-shadow:0 0 8px #39ff14}
+ubble{position:absolute;top:-24px;transform:translateX(-50%);background:#ff5a7a;color:#fff;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid rgba(0,0,0,.15)}
+.mirror{transform:scaleX(-1)}

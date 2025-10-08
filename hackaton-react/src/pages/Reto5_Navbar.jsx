@@ -9,12 +9,12 @@ export default function Reto5_Navbar(){
         <div className="toolbar">
           <div className="row" style={{gap:8}}>
             <div className="badge">Reto 5</div>
-            <div className="muted">Arriba: 1 componente. Abajo: 2 componentes.</div>
+            <div className="muted">Arriba: Normal. Abajo: Invertido.</div>
           </div>
         </div>
         <UnifiedNavbar/>
         <hr/>
-        <div className="navbar" style={{justifyContent:'space-between'}}>
+        <div className="navbar mirror" style={{justifyContent:'space-between', flexDirection:'row-reverse'}}>
           <LeftSearch/>
           <LinksBar/>
         </div>

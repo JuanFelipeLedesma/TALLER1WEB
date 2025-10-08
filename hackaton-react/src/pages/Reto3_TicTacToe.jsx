@@ -11,6 +11,7 @@ export default function Reto3_TicTacToe(){
     setBoard(next)
     setTurn(t=>t==='X'?'O':'X')
   }
+
   function reset(){
     setBoard(Array(9).fill(null))
     setTurn('X')
@@ -27,7 +28,11 @@ export default function Reto3_TicTacToe(){
           <button className="btn ghost" onClick={reset}>Reiniciar</button>
         </div>
         <div className="grid-ttt">
-          {board.map((v,i)=>(<button key={i} className="cell" onClick={()=>play(i)}>{v}</button>))}
+          {board.map((v,i)=>(
+            <button key={i} className="cell" onClick={()=>play(i)}>
+              {v ? <span className={v==='X' ? 'x' : 'o'}>{v}</span> : null}
+            </button>
+          ))}
         </div>
       </div>
     </div>

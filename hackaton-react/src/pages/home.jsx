@@ -17,9 +17,9 @@ export default function Home(){
       <div className="surface" style={{marginBottom:16}}>
         <div className="row" style={{justifyContent:'space-between'}}>
           <div className="row" style={{gap:8}}>
-            <div className="badge">UX</div>
-            <div className="badge">Responsive</div>
-            <div className="badge">Router</div>
+            <div className="badge">Hackaton</div>
+            <div className="badge">Taller 1</div>
+            <div className="badge">Equipo 6</div>
           </div>
           <div className="muted">Selecciona un reto</div>
         </div>
